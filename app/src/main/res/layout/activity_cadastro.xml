@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <!-- Títulos -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar nova conta"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1A1D1E"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preencha os dados para se cadastrar"
+        android:textSize="14sp"
+        android:textColor="#6C757D"
+        android:layout_marginTop="8dp" />
+
+    <!-- Nome Completo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Completo"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#1A1D1E"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/nome_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Digite seu nome"
+        android:textColor="#1A1D1E"
+        android:textColorHint="#ADB5BD"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_corner"
+        android:paddingHorizontal="16dp"
+        android:inputType="textPersonName" />
+
+    <!-- E-mail -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#1A1D1E"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/email_cadastro_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="seu@email.com"
+        android:textColor="#1A1D1E"
+        android:textColorHint="#ADB5BD"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_corner"
+        android:paddingHorizontal="16dp"
+        android:inputType="textEmailAddress" />
+
+    <!-- Senha -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#1A1D1E"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/senha_cadastro_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Mínimo 6 caracteres"
+        android:textColor="#1A1D1E"
+        android:textColorHint="#ADB5BD"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_corner"
+        android:paddingHorizontal="16dp"
+        android:inputType="textPassword" />
+
+    <!-- Botão para escolher foto de perfil / imagem -->
+    <Button
+        android:id="@+id/escolherFotoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Selecionar documento"
+        android:backgroundTint="#6C757D"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white" />
+
+
+    <!-- Botão Finalizar Cadastro -->
+    <Button
+        android:id="@+id/finalizarCadastroBtn"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Finalizar Cadastro"
+        android:backgroundTint="#4A3AFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:textColor="@android:color/white" />
+
+    <!-- Botão de Voltar para o Login -->
+    <Button
+        android:id="@+id/voltarLoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Voltar para o Login"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="#4A3AFF"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</LinearLayout>
