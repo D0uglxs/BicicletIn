@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="24dp">
+
+    <EditText
+        android:id="@+id/edtTitular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome no cartão"
+        android:inputType="textPersonName|textCapCharacters" />
+
+    <EditText
+        android:id="@+id/edtNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número do cartão"
+        android:inputType="number"
+        android:maxLength="19" />
+
+    <EditText
+        android:id="@+id/edtValidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Validade (MM/AA)"
+        android:inputType="text"
+        android:maxLength="5" />
+</LinearLayout>

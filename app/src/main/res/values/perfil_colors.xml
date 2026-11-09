@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="perfil_bg">#EEF2F7</color>
+    <color name="perfil_teal">#16929B</color>
+    <color name="perfil_ciano">#5CE1E6</color>
+    <color name="perfil_azul">#0A3FA8</color>
+    <color name="perfil_texto">#0B2545</color>
+    <color name="perfil_texto_sec">#6B7A8C</color>
+    <color name="perfil_divisor">#E3E8EE</color>
+    <color name="perfil_mapa_bg">#DDE5EC</color>
+</resources>

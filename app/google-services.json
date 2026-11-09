@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577837732816",
+    "project_id": "bicicletin-5e4f9",
+    "storage_bucket": "bicicletin-5e4f9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577837732816:android:4c1cb91549e54974c21fd5",
+        "android_client_info": {
+          "package_name": "com.example.bicicletin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdl7IofdjFGCaYyx1k63158pZNdOPZEls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
