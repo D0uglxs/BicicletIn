@@ -1,14 +1,10 @@
 ==================================================
-
 BICICLETIN
-
 ==================================================
 
 
 
 Aplicativo Android para locacao e compartilhamento de bicicletas urbanas, desenvolvido com foco em praticidade e mobilidade urbana.
-
-
 
 
 
@@ -23,8 +19,6 @@ FUNCIONALIDADES
 - Gerenciamento de Pagamentos: Cadastro e remocao de cartoes para cobranca dos trajetos.
 
 - Perfil do Usuario: Consulta de dados cadastrais, historico de corridas e configuracoes da conta.
-
-
 
 
 
@@ -68,7 +62,7 @@ COMO EXECUTAR O PROJETO
 
 - Clone o repositorio em seu ambiente local:
 
-  git clone 
+  git clone https://github.com/SEU_USUARIO/BicicletIn.git
 
 
 
