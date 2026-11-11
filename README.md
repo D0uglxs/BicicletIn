@@ -68,7 +68,7 @@ COMO EXECUTAR O PROJETO
 
 - Clone o repositorio em seu ambiente local:
 
-  git clone https://github.com/SEU_USUARIO/BicicletIn.git
+  git clone 
 
 
 
